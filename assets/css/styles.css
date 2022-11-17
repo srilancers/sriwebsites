@@ -24,7 +24,7 @@
 
   /* --font-secondary: 'Oswald', sans-serif; */
   /* --fo55nt-secondary: 'Overpass', sans-serif; pair with montserrat */
-  --font-secondary: 'Montserrat', sans-serif;
+  --font-secondary: 'Avenir', sans-serif;
 }
 
 a {
@@ -118,7 +118,7 @@ h4 {
 .btn--secondary {
   display: inline-block;
   padding: 12px 28px;
-  border: 2px solid var(--color-primary);
+  border: 2px solid #39DDB0;
   color: var(--text-color-first);
   position: relative;
   overflow: hidden;
@@ -135,7 +135,7 @@ h4 {
   right: 100%;
   width: 100%;
   height: 100%;
-  background: var(--color-secondary);
+  background: rgb(57, 221, 176);
   transition: .3s ease-out;
   z-index: -1;
 }
@@ -147,7 +147,6 @@ h4 {
 .btn--secondary:hover {
   background: transparent;
   color: #fff;
-  border: 2px solid var(--color-secondary);
 }
 
 .btn--white {
@@ -202,19 +201,20 @@ h4 {
   transition: top 0.3s;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
   z-index: 999;
+  padding: 1rem 4rem;
 }
 
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 80px;
+
 }
 
 .logo img {
   margin-top: 10px;
-  width: 250px;
-  height: 125px;
+  width: 150px;
+  height: auto;
 }
 
 .nav--items {
@@ -354,11 +354,11 @@ width: ;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 5rem;
+  /* padding: 5rem; */
 }
 
 .about {
-  padding-block: 8rem;
+  /* padding-block: 8rem; */
   display: flex;
   justify-content: center;
   /* background-color: #F9D7CA;
@@ -383,16 +383,17 @@ width: ;
 }
 
 .about--content {
-  width: 70vw;
+  /* width: 70vw; */
   text-align: center;
-  background-color: #CAECF9;
-  padding: 5rem;
+  background-color: rgba(202, 236, 249, 0.85);
+  /* padding: 5rem; */
+  padding: 4rem;
 }
 
 
 
 .about--content p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin-bottom: 1.2rem;
   color: var(--text-color-second);
 }
@@ -445,6 +446,10 @@ width: ;
   padding: .5rem;
 }
 
+.snav--img {
+  width: 64px;
+}
+
 .lg--service--container {
   margin-top: -2rem;
 }
@@ -470,6 +475,8 @@ width: ;
   background-position: center;
   background-size: cover;
   position: relative;
+  /* backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, .15); */
 }
 
 .lg--deep--cleaning.active {
@@ -522,6 +529,7 @@ width: ;
 }
 
 .lg--service--content {
+
   position: absolute;
   text-align: center;
   backdrop-filter: blur(5px);
@@ -766,7 +774,7 @@ width: ;
 }
 
 .left {
-  background: url("/assets/images/bg.jpg") no-repeat center;
+  background: url("/assets/images/pexels-pixabay-160767.jpg") no-repeat center;
   background-size: cover;
   height: 100%;
 }
