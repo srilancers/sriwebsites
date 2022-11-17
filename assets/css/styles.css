@@ -12,6 +12,7 @@
   scroll-behavior: smooth;
   letter-spacing: 1.5px;
   line-height: 1.5;
+
 }
 
 :root {
@@ -350,7 +351,7 @@ width: ;
 
 .about--section {
   position: relative;
-  background: url(../images/aboutbg.jpg);
+  background: url(../images/pexels-andrea-piacquadio-716658.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -694,8 +695,9 @@ width: ;
 }
 
 .footer {
+
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  /* grid-template-columns: repeat(3, 1fr); */
   gap: 2rem;
 }
 
@@ -774,7 +776,7 @@ width: ;
 }
 
 .left {
-  background: url("/assets/images/pexels-pixabay-160767.jpg") no-repeat center;
+  background: url("/assets/images/pexels-tristan-le-1642883.jpg") no-repeat center;
   background-size: cover;
   height: 100%;
 }
@@ -849,12 +851,26 @@ width: ;
 }
 
 /* footer bottom starts here */
+.footer {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+
+  justify-content: space-between
+}
 
 .footer--bottom {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-block: 1rem;
+  justify-content: center;
+
+}
+
+
+
+.company {
+
+  /* padding-left: 2rem; */
+  /* text-align: centerl; */
 }
 
 .cleaning--services,
@@ -863,8 +879,15 @@ width: ;
 }
 
 .footer--links {
-  text-align: center;
+  display: flex;
 }
+
+
+.footer--logo {
+  width: 100px;
+}
+
+
 
 /* ===========================contact us=========================== */
 
@@ -1068,6 +1091,7 @@ input.button:hover {
     transition: .3s ease-out;
 
 
+
   }
 
   .nav--items.active {
@@ -1105,19 +1129,12 @@ input.button:hover {
 
   .footer {
 
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1, 1fr);
   }
 
-  .footer--bottom {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 
-  }
 
-  .footer--bottom .rights {
-    text-align: center;
-  }
+
 
   .quote {
     grid-template-columns: 1fr;
@@ -1233,7 +1250,20 @@ input.button:hover {
   .quote--form h2 {
     font-size: 2.5rem;
   }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .footer--bottom {
+    text-align: center;
+    padding: 0 1.5rem;
+  }
 }
+
 
 @media only screen and (max-width: 430px) {
 
@@ -1280,4 +1310,34 @@ input.button:hover {
   .quote--form h2 {
     font-size: 2rem;
   }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    display: flex;
+
+  }
+
+  .footer>p {
+    display: inline-block;
+    min-width: 100%;
+    text-align: center;
+  }
+
+  .footer>h3 {
+    align-items: center;
+  }
+
+
+
+
+
+  .footer--bottom {
+    text-align: center;
+    padding: 0 1rem;
+    ;
+  }
+
 }
