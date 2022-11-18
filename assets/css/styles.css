@@ -776,7 +776,7 @@ width: ;
 }
 
 .left {
-  background: url("./assets/images/pexels-tristan-le-1642883.jpg") no-repeat center;
+  background: url('../images/pexels-tristan-le-1642883.jpg') no-repeat center;
   background-size: cover;
   height: 100%;
 }
