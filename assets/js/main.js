@@ -52,7 +52,7 @@ const scheduledBtn = document.getElementById('scheduled--btn');
 const oneTimeBtn = document.getElementById('one-time--btn');
 const movingBtn = document.getElementById('moving--btn');
 
-const deep = document.getElementById('lg--deep--cleaning');
+const deep = document.getElementById('lg--deep--service');
 const scheduled = document.getElementById('lg--scheduled--visits');
 const oneTime = document.getElementById('lg--one--time');
 const moving = document.getElementById('lg--moving');
