@@ -354,8 +354,8 @@ a.link--contact {
   white-space: normal;
   overflow-wrap: break-word;
   font-size: 4.5rem;
-  color: rgba(255, 255, 255, .92);
-  text-transform: none;
+  color: whitesmoke;
+  text-transform: uppercase;
   margin-bottom: 5vh;
 }
 
@@ -366,6 +366,8 @@ a.link--contact {
   font-weight: 200;
   margin-top: 2rem;
   font-style: italic;
+  color: white;
+  text-transform: none;
 }
 
 
