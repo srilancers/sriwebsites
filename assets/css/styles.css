@@ -863,7 +863,7 @@ width: ;
 }
 
 .left {
-  background: url(/assets/images/contactIMG.jpg);
+  background: url(../images/contactIMG.jpg);
   background-size: cover;
   height: 100%;
 }
